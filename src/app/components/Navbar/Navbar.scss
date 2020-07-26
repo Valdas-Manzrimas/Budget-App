@@ -1,0 +1,18 @@
+.Navbar {
+  margin: 0;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+
+  background: rgb(116, 173, 90);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 173, 90, 1) 0%,
+    rgba(9, 9, 121, 1) 56%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
