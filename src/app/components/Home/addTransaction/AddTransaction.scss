@@ -25,8 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
-    input[type='number'] {
+    input[type='number'],
+    [type='text'] {
       color: rgb(14, 46, 58);
       opacity: 40%;
       outline: none;
@@ -34,15 +36,19 @@
       width: 200px;
       height: 25px;
       font-size: 18px;
+      margin-bottom: 5px;
     }
   }
   button {
     opacity: 8 0%;
+    color: rgb(14, 46, 58);
+    background: rgb(106, 137, 148);
+    font-size: 17px;
     outline: none;
     border: none;
     height: 27px;
     margin: 0;
-    padding: 0 10px;
+    padding: 5px 20px;
     cursor: pointer;
   }
 }

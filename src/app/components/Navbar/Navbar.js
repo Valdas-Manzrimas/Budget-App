@@ -1,18 +1,16 @@
 import React from 'react';
 import './Navbar.scss';
+import { Link } from 'react-router-dom';
 
-import Button from '../common/Button/Button';
+import NavButton from '../common/navButton/NavButton';
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className="Navbar">
-      <div className="Navbar__left-side"></div>
-
-      <div className="Navbar__right-side">
-        <Button>Login</Button>
-      </div>
+      <Link to="/">Budget Counter</Link>
+      <Link to="/transactions">Transactions</Link>
     </nav>
   );
-}
+};
 
 export default Navbar;
